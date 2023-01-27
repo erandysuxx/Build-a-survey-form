@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif, 'Poppins';
+    color: white;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-size: cover;
+}
+
+label {
+    display: block;
+}
+
+#title {
+    font-size: 40px;
+}
+#header {
+    text-align: center;
+    color: white;
+}
+
+#description {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#survey-form {
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+}
+
+.inline {
+   
+    text-align: left;
+    width: unset;
+    align-items: center;
+
+}
+
+fieldset {
+    border: none;
+    background-color: rgba(15, 7, 37, 0.7);
+    padding: 0px 50px 0px 50px;
+}
+
+#dropdown, input[class="enter-text"] {
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.first {
+    padding-top: 50px;
+}
+
+#space, input[type="checkbox"] {
+    margin: 10px;
+}
+
+.recomend, .enter-comment {
+    padding-bottom: 20px;
+}
+
+.text-text {
+   width: 100%;
+   height: 100px;
+   font-size: 20px;
+   
+}
+
+.improved {
+    padding-bottom: 50px;
+}
+.enter-comment {
+    font-size: 20px;}
+
+.input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 70px;
+    background-color: rgb(70, 168, 72);
+    color: white;
+    font-size: 20px
+}
